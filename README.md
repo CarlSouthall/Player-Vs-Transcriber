@@ -2,9 +2,7 @@
 
 An open source implementation of the player-vs-transcriber (PvT) model proposed in [1].
 
-The player model contains a CNN [1] and the transcriber model utilises a cnnSA3F5 [1,2].
-
-The example utilises data from [3].  
+The player model contains a CNN [1], the transcriber model utilises a cnnSA3F5 [1,2] and the example  data is from [3].  
 
 ## Licenses
 
