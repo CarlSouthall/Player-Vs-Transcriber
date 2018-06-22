@@ -20,8 +20,7 @@ The full license information can be found on the [license](https://github.com/Ca
 ## Required Packages
 
 • [numpy](https://www.numpy.org)   
-• [tensorflow](https://www.tensorflow.org/)  
-• [easytf](https://github.com/CarlSouthall/easytf)  
+• [tensorflow](https://www.tensorflow.org/)   
 • [matplotlib](https://matplotlib.org/)
 
 ## References
