@@ -1,8 +1,10 @@
-# PP_loss_functions
+# Player-Vs-Transcriber
 
-An open source implementation of the multiple time-step loss functions for peak-picking proposed in [1].
+An open source implementation of the player-vs-transcriber (PvT) model proposed in [1].
 
-A cnnSA3F5 model [1,2] is utilised with CE, MI, MMD and WMD loss functions for automatic drum transcription using data from [3]. 
+The player model contains a CNN [1] and the transcriber model utilises a cnnSA3F5 [1,2].
+
+The example utilises data from [3].  
 
 ## Licenses
 
@@ -20,17 +22,14 @@ The full license information can be found on the [license](https://github.com/Ca
 ## Required Packages
 
 • [numpy](https://www.numpy.org)   
-• [tensorflow](https://www.tensorflow.org/)  
-• [easytf](https://github.com/CarlSouthall/easytf)  
+• [tensorflow](https://www.tensorflow.org/)   
 • [matplotlib](https://matplotlib.org/)
 
 ## References
-
-
-| **[1]** |                  **[C. Southall, R. Stables and J. Hockman, Improving Peak-Picking Using Multiple Time-step Loss Functions, Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR), 2018. Update hyperlink](https://carlsouthall.files.wordpress.com/2017/12/ismir2017mdbdrums.pdf)**|
+| **[1]** |                  **[C. Southall, R. Stables and J. Hockman, Player Vs Transcriber: A Game Approach To Data Manipulation For Automatic Drum Transcription, Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR), 2018. Update hyperlink](https://carlsouthall.files.wordpress.com/2017/12/ismir2017mdbdrums.pdf)**|
 | :---- | :--- |
 
-| **[2]** |                  **[C. Southall, R. Stables and J. Hockman, Player Vs Transcriber: A Game Approach To Data Manipulation For Automatic Drum Transcription, Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR), 2018. Update hyperlink](https://carlsouthall.files.wordpress.com/2017/12/ismir2017mdbdrums.pdf)**|
+| **[2]** |                  **[C. Southall, R. Stables and J. Hockman, Improving Peak-Picking Using Multiple Time-step Loss Functions, Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR), 2018. Update hyperlink](https://carlsouthall.files.wordpress.com/2017/12/ismir2017mdbdrums.pdf)**|
 | :---- | :--- |
 
 | **[3]** |                  **[C. Southall, C. Wu, A. Lerch, J. Hockman, MDB Drums - An Annotated Subset of MedleyDB for Automatic Drum Transcription, Proceedings of the 18th International Society for Music Information Retrieval Conference (ISMIR), 2017.](https://carlsouthall.files.wordpress.com/2017/12/ismir2017mdbdrums.pdf)**|
