@@ -1,4 +1,4 @@
-#Player-Vs-Transcriber
+# Player-Vs-Transcriber
 
 An open source implementation of the player vs transcriber (PvT) model proposed in [1].
 
